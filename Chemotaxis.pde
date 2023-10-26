@@ -31,7 +31,7 @@ class Bacteria
   }
   void show() {
     strokeWeight(1.5);
-    fill(123, 125, 321);
+    fill(255);
     ellipse(myX, myY, 50, 50);
   }
 }
