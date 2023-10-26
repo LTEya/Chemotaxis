@@ -1,7 +1,7 @@
 Bacteria[] bob;
 void setup()
 {
-  size(1000, 1000);
+  size(500, 500);
   bob = new Bacteria[1000];
   for(int i=0; i<bob.length; i++)
     bob[i]= new Bacteria(100*i,100*i); 
@@ -27,7 +27,7 @@ class Bacteria
   void walk() {
     myX = myX + (int)(Math.random()*8)-3;
     myY = myY + (int)(Math.random()*40)-3;
-    if (myY >1000) myY=0;
+    if (myY >500) myY=0;
   }
   void show() {
     strokeWeight(1.5);
